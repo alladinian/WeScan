@@ -25,7 +25,8 @@ let package = Package(
                 path: "WeScan",
                 exclude: [
                     "Info.plist",
-                    "WeScan.h"
+                    "WeScan.h",
+                    "BundleFinder.swift"
                 ],
                 resources: [
                     .process("Resources")
